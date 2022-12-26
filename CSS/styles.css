@@ -12,44 +12,11 @@ body{
     
     
 }
-img{
-    margin-right: auto;
-    background-color: rgb(243, 232, 232);
+nav{
+    opacity: 30%;
+    font-size: 25px;
+
 }
-
-.flex{
-    display: flex;
-    flex-direction: row;
-
-
-    
-}
-
-
-.nav{
-    background-color: beige;
-    align-items: center;
-    top: 0%;
-    left: 0%;
-    opacity: 40%;
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    width: 100%;
-}
-
-li a{
-    color: rgb(240, 6, 25);
-}
-
-
-ul li{
-    
-    padding: 25px;
-    list-style: none;
-    font-size: 20px;
-}
-
 
 #hero{
     
