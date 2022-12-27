@@ -215,3 +215,9 @@ footer{
 #galeria img:hover {
      border: 5px solid #f7f7f7;
 }
+
+.contacto{
+    opacity: 60%;
+    color:rgb(0, 0, 0);
+}
+
