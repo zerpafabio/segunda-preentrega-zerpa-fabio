@@ -34,11 +34,15 @@ nav{
     text-align: center;
     font-size: 30px;
     height: 50px;
-    
-    
-    
-    
+
 }
+
+#act{
+    margin:5px;
+    justify-content: center;
+    text-align: center;
+}
+
 .parrafo{
     color: rgb(255, 255, 255);
     text-align: center;
