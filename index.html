@@ -98,31 +98,63 @@
 
         <section id="invertir">
             <h4>INVERTIR</h4>
-
-            <div class="flex-conteiner">
-                <div>
-                    <form class="form">
-                        <div class="form__section">
-                            <label class="form" for="nombre">Nombre y Apellido</label>
-                            <input type="text" name="nombre" id="nombre" class="form__input">
-                        </div>
-                        <div class="form__section">
-                            <label class="form" for="email">E-mail</label>
-                            <input type="email" name="email" id="email" class="form__input">
-                        </div>
-                        <div class="form__section">
-                            <label class="form" for="comentarios">Comentarios</label>
-                            <textarea name="comentarios" id="comentarios" class="form__input"></textarea>
-                        </div>
-                        <div class="form__section">
-                            <input type="submit" value="enviar" class="form__input" >
-                            <input type="reset" value="borrar" class="form__input">
-                        </div>
-
-                    </form>
+            <form class="needs-validation" novalidate>
+                <div class="form-row d-flex m-4">
+                  <div class="col-md-4 mb-3">
+                    <label for="validationTooltip01">Nombre</label>
+                    <input type="text" class="form-control" id="validationTooltip01" placeholder="" value="Nombre" required>
+                    <div class="valid-tooltip">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <label for="validationTooltip02">Apellido</label>
+                    <input type="text" class="form-control" id="validationTooltip02" placeholder="" value="Apellido" required>
+                    <div class="valid-tooltip">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <label for="validationTooltipUsername">E-mail</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                      </div>
+                      <input type="text" class="form-control" id="validationTooltipUsername" placeholder="E-mail" aria-describedby="validationTooltipUsernamePrepend" required>
+                      <div class="invalid-tooltip">
+                        Please choose a unique and valid username.
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <div class="form-row d-flex m-4">
+                  <div class="col-md-4 mb-3">
+                    <label for="validationTooltip03">Telefono</label>
+                    <input type="text" class="form-control" id="validationTooltip03" placeholder="telefono" required>
+                    <div class="invalid-tooltip">
+                      Please provide a valid city.
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <label for="validationTooltip04">Telefono n°2</label>
+                    <input type="text" class="form-control" id="validationTooltip04" placeholder="Telefono n°2" required>
+                    <div class="invalid-tooltip">
+                      Please provide a valid state.
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <label for="validationTooltip05">Ciudad</label>
+                    <input type="text" class="form-control" id="validationTooltip05" placeholder="Ciudad" required>
+                    <div class="invalid-tooltip">
+                      Please provide a valid zip.
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Enviar</button>
+              </form>
+            
 
-                <div class="maps">
+                <div class="maps m-4">
 
                     <iframe class="form__input"
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14608.569241092491!2d-65.5034511!3d-23.7423041!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x75df6eaa0d70dbaa!2sEl%20cielo%20en%20Purmamarca!5e0!3m2!1ses-419!2sar!4v1668655437454!5m2!1ses-419!2sar"
@@ -135,16 +167,20 @@
         </section>
     </main>
 
-    <footer class="container text-center" >
-        <div class="row">
-            <div class="col-4" class="text-info bg-dark">
-               <p>TODOS LOS DERECHOS RESERVADOS</p>
+    <footer>
+        <div class="card text-center d-block p-2 text-bg-dark">
+            <div class="card-header">
+              El Cielo En Purmamarca
             </div>
-            <div class="col-2">
-               <p><a href="https://www.facebook.com/PurmarcaComplejoTuristico" target="_BLANK">Facebook</a></p>
+            <div class="card-body">
+              <h5 class="card-title">Todos los derechos reservados</h5>
+              <p class="card-text">TEL:+549388497746---ELCIELOENPUMAMARCA@GMAIL.COM</p>
+              <a href="https://www.facebook.com/PurmarcaComplejoTuristico/" class="btn btn-primary">Facebook</a>
+              <a href="https://www.instagram.com/elcieloenpurmamarca/" class="btn btn-primary">Instagram</a>
+              <a href="https://www.youtube.com/watch?v=petRZ7Hu5tg&ab_channel=AniRuggeri" class="btn btn-primary">Youtube</a>
             </div>
-            <div class="col-6">
-              <p>Contacto: +5493884975120</p>
+            <div class="card-footer text-muted">
+              @ copyright
             </div>
         </div>
 
